@@ -51,6 +51,9 @@ font-family :'young-serif',serif ;
 }
 .Ingredients{
     margin: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
 }
 .Ingredients h1{
     font-family :'young-serif',serif ;
@@ -60,12 +63,16 @@ font-family :'young-serif',serif ;
     padding-left: 25px;
     color:hsl(14, 45%, 36%);
 
+
 }
 
 
 .Instructions{
     margin: 50px;
     width: 700px;
+     padding-bottom: 30px;
+    border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
 }
 .Instructions h1{
     font-family :'young-serif',serif ;
@@ -91,11 +98,12 @@ font-family :'young-serif',serif ;
 }
 .Nutrition table tr td {
   padding: 10px  100px 10px 0px;
-  border-bottom: 1px solid color:hsl(30, 10%, 34%);
-  
-  
+  border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
 }
-
+.Nutrition table tr:last-child td{
+    border-bottom: none;
+}
 
 p{
 color: black;
